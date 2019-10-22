@@ -1,0 +1,305 @@
+* {
+  font-size: 12px;
+}
+
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
+
+.client {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.client-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  position: relative;
+}
+
+.client-head-title {
+  width: 25%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  background-image: url("../../imgs/btn_二级标题.png");
+  background-size: 100% 100%;
+}
+
+.client-head-title:nth-child(2) {
+  color: #66b6ff;
+}
+
+.client-head-title:nth-child(3) {
+  color: #66b6ff;
+  margin-right: 10px;
+
+}
+
+.client-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.client-main-left {
+  width: 50%;
+  position: relative;
+}
+
+.client-main-title {
+  width: 96%;
+  height: 20px;
+  margin: 15px 0 0 10px;
+  background: linear-gradient(to right, #0a76d9, #132b4f);
+  text-align: left;
+  padding-left: 10px;
+  line-height: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 97%;
+}
+
+.list span {
+  background: #0b78dd;
+}
+
+.list span:nth-child(1) {
+  display: inline-block;
+  width: 70px;
+}
+
+.list span:nth-child(2) {
+  display: inline-block;
+  width: 270px;
+}
+
+.list span:nth-child(3) {
+  display: inline-block;
+  width: 180px;
+}
+
+.list span:nth-child(4) {
+  display: inline-block;
+  width: 200px;
+}
+
+
+.aa {
+  height: 300px;
+  width: 100%;
+}
+
+.client-main-table {
+  width: 92%;
+  height: 300px;
+  /* background: #13223f; */
+  color: #fff;
+  /* overflow: hidden; */
+}
+
+li {
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #0a76d9;
+  margin-left: -30px;
+}
+
+
+li span:nth-child(1) {
+  display: inline-block;
+  width: 180px;
+}
+
+li span:nth-child(2) {
+  display: inline-block;
+  width: 1200px;
+}
+
+li span:nth-child(3) {
+  display: inline-block;
+  width: 520px;
+}
+
+li span:nth-child(4) {
+  display: inline-block;
+  width: 750px;
+}
+
+.client-main-bottom {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.client-bottom-top {
+  width: 100%;
+  display: flex;
+  /* background: blue; */
+}
+
+.client-bottom-title {
+  width: 100%;
+  height: 20px;
+  margin: 10px;
+  background: linear-gradient(to right, #0a76d9, #132b4f);
+  text-align: left;
+  line-height: 20px;
+  color: #fff;
+  padding-left: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-bottom-tit {
+  text-align: left;
+  margin: 10px;
+}
+
+.client-bottom-chart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 90px; */
+}
+
+.a {
+  width: 50%;
+}
+
+.b {
+  width: 50%;
+}
+
+
+.client-main-right {
+  width: 50%;
+  margin-left: 10px;
+}
+
+.client-right-money {
+  width: 100%;
+  display: flex;
+  height: 305px;
+
+}
+
+
+.client-bottom-tit {
+  color: #67b7fe
+}
+
+.collect {
+  margin-top: 43px;
+}
+
+.client-right-collect p {
+  margin-left: 10px;
+
+}
+
+.right-content {
+  width: 100%;
+  display: flex;
+}
+
+.right-left {
+  width: 30%;
+  margin-left: 10px;
+
+}
+
+.right-list {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.right-list span {
+  background: #0b78dd;
+}
+
+.right-list span:nth-child(1) {
+  display: inline-block;
+  width: 70px;
+}
+
+.right-list span:nth-child(2) {
+  display: inline-block;
+  width: 125px;
+}
+
+.menu {
+  width: 200px;
+  height: 300px;
+}
+
+.client-right-table {
+  width: 150px;
+  height: 300px;
+}
+
+.client-right-table li span {
+  margin-left: 20px;
+}
+
+.right-right {
+  width: 70%;
+  height: 336px;
+  /* background: gold; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-picture {
+  width: 46%;
+  height: 150px;
+  margin: 0 9px;
+  position: relative;
+}
+
+.backpicture {
+  height: 150px;
+  width: 100%;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.right-tit {
+  position: absolute;
+  bottom: 0;
+  height: 24px;
+  width: 100%;
+  line-height: 24px;
+  background: #000;
+  opacity: .3;
+  color: #fff;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}

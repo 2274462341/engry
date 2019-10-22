@@ -1,0 +1,141 @@
+.power {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.powermain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.power-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  height: 30px;
+}
+
+.power-head-title {
+  width: 22%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../../imgs/btn_二级标题.png");
+  background-size: 100% 100%;
+}
+
+.power-head-title:nth-child(2) {
+  color: #66b6ff;
+}
+
+.power-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 850px;
+
+}
+
+.power-main-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.power-bottom-title {
+  width: 95%;
+  height: 20px;
+  margin: 10px;
+  background: linear-gradient(to right, #0a76d9, #132b4f);
+  text-align: left;
+  line-height: 20px;
+  color: #fff;
+  padding-left: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.power-over {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.power-over-left {
+  width: 30%;
+  height: 210px;
+  background-image: url("../../imgs/bg_售电量1.png");
+  background-size: 100% 100%;
+}
+
+.power-posi {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32%;
+}
+
+.sizes {
+  font-size: 50px;
+  font-family: 'lcdd';
+}
+
+.power-over-right {
+  width: 50%;
+  width: 30%;
+  height: 210px;
+  background-image: url("../../imgs/bg_售电量2.png");
+  background-size: 100% 100%;
+}
+
+.power-span {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.power-bigbar {
+  height: 400px;
+}
+
+.power-bigbar>p {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 15px;
+  font-size: 18px;
+  text-align: LEFT;
+}
+
+.power-main-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.power-charts {
+  align-items: center;
+  width: 100%;
+  /* flex:1; */
+}
+
+.power-charts-top {
+  width: 100%;
+  height: 350px;
+}
+
+.power-charts-bottom {
+  width: 100%;
+  height: 350px;
+}
